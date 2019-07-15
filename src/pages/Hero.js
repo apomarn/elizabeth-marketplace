@@ -42,29 +42,29 @@ const Carousel = styled.div`
   position: relative;
 `
 
-// const LogoDiv = styled.div`
-//   width: 100%;
-//   display: flex;
-//   position: absolute;
-//   top: 10px;
-//   left: 10px;
+const LogoDiv = styled.div`
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 
-//   @media screen and (min-width: ${breakpoints.desktop}px) {
-//     position: absolute;
-//     top: 40px;
-//     left: 40px;
-//   }
-// `
+  @media screen and (min-width: ${breakpoints.desktop}px) {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+`
 
-// const Logo = styled.img`
-//   width: 60px;
-//   heigth: 60px;
+const Logo = styled.img`
+  width: 60px;
+  heigth: 60px;
 
-//   @media screen and (min-width: ${breakpoints.desktop}px) {
-//     width: 150px;
-//     heigth: 150px;
-//   }
-// `
+  @media screen and (min-width: ${breakpoints.desktop}px) {
+    width: 150px;
+    heigth: 150px;
+  }
+`
 
 const Input = styled.input`
   border-radius: 20px;
@@ -129,9 +129,9 @@ class Hero extends Component {
             <Input type='search' placeholder='   Busca tu artículo' />
           </form>
         </MyDiv>
-        {/* <LogoDiv>
+        <LogoDiv>
           <Logo src='../images/logo.png' />
-        </LogoDiv> */}
+        </LogoDiv>
       </Container>
     )
   }
