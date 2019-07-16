@@ -32,10 +32,10 @@ const Phrase = styled.h3`
   padding-bottom: 5px;
   ${textStyles.h4Bold}
 
-  // @media screen and (min-width: ${breakpoints.desktop}px) {
-  //   padding-bottom: 5px;
-  //   ${textStyles.h3Bold}
-  // }
+  @media screen and (min-width: ${breakpoints.desktop}px) {
+    padding-bottom: 5px;
+    ${textStyles.h3Bold}
+  }
 `
 
 const Carousel = styled.div`
