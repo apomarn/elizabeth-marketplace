@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import { colors, textStyles, breakpoints } from '../styles'
+import { colors, textStyles, breakpoints } from '../../styles'
 
 const Container = styled.div`
   display: flex;
