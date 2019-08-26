@@ -7,11 +7,18 @@ const Header = styled.p`
   color: ${colors.gray};
 `
 
+const Underline = styled.div`
+  background-color: ${colors.gray};
+  height: 10px;
+  width: 40px;
+`
+
 class PopularSection extends Component {
   render() {
     return (
       <div>
         <Header>ARTICULOS POPULARES DEL MES</Header>
+        <Underline></Underline>
       </div>
     )
   }
